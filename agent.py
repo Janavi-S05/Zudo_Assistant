@@ -4,7 +4,7 @@ from livekit import agents
 from livekit.agents import AgentSession, Agent, RoomInputOptions
 from livekit.plugins import (
     google,
-    noise_cancellation,
+    noise_cancellation, 
 )
 
 from prompt import AGENT_INSTRUCTION, AGENT_RESPONSE
