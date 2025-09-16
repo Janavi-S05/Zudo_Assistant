@@ -12,7 +12,7 @@ load_dotenv()
 
 
 class Assistant(Agent):
-    def __init__(self) -> None:
+    def __init__(self) -> None: 
         super().__init__(instructions=AGENT_INSTRUCTION)
 
 
