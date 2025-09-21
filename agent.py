@@ -16,7 +16,7 @@ class Assistant(Agent):
         super().__init__(instructions=AGENT_INSTRUCTION)
 
 
-async def entrypoint(ctx: agents.JobContext):
+async def entrypoint(ctx: agents.JobContext): 
     session = AgentSession(
         llm=google.beta.realtime.RealtimeModel(
         model="gemini-2.0-flash-exp",
